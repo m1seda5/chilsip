@@ -55,7 +55,7 @@ export function HowVideo() {
     step.seal === 'peel'
       ? { opacity: 1, transform: 'translate(0,74px) rotate(0deg) scaleX(1) scaleY(1)' }
       : step.seal === 'on'
-        ? { opacity: 1, transform: 'translate(0,0) rotate(0deg) scaleX(1) scaleY(0.38)' }
+        ? { opacity: 1, transform: 'translate(0,60px) rotate(0deg) scaleX(1) scaleY(0.38)' }
         : { opacity: 0, transform: 'translate(0,-70px) rotate(0deg) scaleX(1) scaleY(1)' }
 
   return (
