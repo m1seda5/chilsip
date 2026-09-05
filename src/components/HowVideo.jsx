@@ -16,6 +16,7 @@ export function HowVideo() {
   const started = useRef(false)
 
   const step = DEMO_STEPS[index]
+  const isApplyingSeal = index === 3
 
   const tick = useCallback(
     (ts) => {
@@ -126,6 +127,13 @@ export function HowVideo() {
                   />
                   <ellipse cx="140" cy="96" rx="62" ry="15" fill="#FFFDF7" stroke="#ECECEC" strokeWidth="2" />
                 </g>
+
+                {isApplyingSeal && (
+                  <g className="demo-placement-arrow" aria-hidden="true">
+                    <path d="M140 26v38" stroke="#D4A017" strokeWidth="3" strokeLinecap="round" strokeDasharray="4 5" />
+                    <path d="m130 56 10 10 10-10" fill="none" stroke="#D4A017" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                  </g>
+                )}
 
                 <g style={{ ...sealStyle, transition: 'opacity .55s ease, transform .55s ease' }}>
                   <image

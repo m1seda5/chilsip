@@ -733,6 +733,23 @@ h3 {
   height: auto;
 }
 
+.demo-placement-arrow {
+  animation: demo-placement-arrow 0.9s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes demo-placement-arrow {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: translateY(-7px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(4px);
+  }
+}
+
 .video-caption {
   text-align: center;
   font-family: var(--font-display);

@@ -63,14 +63,14 @@ export function Contact() {
               <Icons.mail />
               <div>
                 <strong>Email</strong>
-                <a href="mailto:chillsip254@gmail.com">chillsip254@gmail.com</a>
+                <a href="mailto:sorsosicuro@gmail.com">sorsosicuro@gmail.com</a>
               </div>
             </div>
             <div className="contact-detail">
               <Icons.phone />
               <div>
-                <strong>Partnerships</strong>
-                <a href="mailto:chillsip254@gmail.com">chillsip254@gmail.com</a>
+                <strong>Phone</strong>
+                <a href="tel:0110857613">0110857613</a>
               </div>
             </div>
             <div className="contact-detail">
